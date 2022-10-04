@@ -169,9 +169,12 @@ powerpc*)
 		esac
 	fi
 	;;
+riscv32*)
+	arch=riscv
+	AC_DEFINE([RISCV32], 1, [Define for the RISC-V 32-bit architecture])
+	;;
 riscv64*)
-	arch=riscv64
-	karch=riscv
+	arch=riscv
 	AC_DEFINE([RISCV64], 1, [Define for the RISC-V 64-bit architecture])
 	;;
 s390)

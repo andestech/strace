@@ -821,19 +821,19 @@ EXTRA_DIST =				\
 	linux/powerpc64le/set_scno.c	\
 	linux/powerpc64le/syscallent.h	\
 	linux/powerpc64le/userent.h	\
-	linux/riscv64/arch_defs_.h		\
-	linux/riscv64/arch_prstatus_regset.c \
-	linux/riscv64/arch_prstatus_regset.h \
-	linux/riscv64/arch_regs.c		\
-	linux/riscv64/get_error.c		\
-	linux/riscv64/get_scno.c		\
-	linux/riscv64/get_syscall_args.c	\
-	linux/riscv64/ioctls_arch0.h	\
-	linux/riscv64/ioctls_inc0.h	\
-	linux/riscv64/raw_syscall.h	\
-	linux/riscv64/set_error.c		\
-	linux/riscv64/set_scno.c		\
-	linux/riscv64/syscallent.h	\
+	linux/riscv/arch_defs_.h		\
+	linux/riscv/arch_prstatus_regset.c \
+	linux/riscv/arch_prstatus_regset.h \
+	linux/riscv/arch_regs.c		\
+	linux/riscv/get_error.c		\
+	linux/riscv/get_scno.c		\
+	linux/riscv/get_syscall_args.c	\
+	linux/riscv/ioctls_arch0.h	\
+	linux/riscv/ioctls_inc0.h	\
+	linux/riscv/raw_syscall.h	\
+	linux/riscv/set_error.c		\
+	linux/riscv/set_scno.c		\
+	linux/riscv/syscallent.h	\
 	linux/s390/arch_defs_.h		\
 	linux/s390/arch_prstatus_regset.c \
 	linux/s390/arch_prstatus_regset.h \
